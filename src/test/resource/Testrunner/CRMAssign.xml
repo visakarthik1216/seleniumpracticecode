@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG Regression Suite" verbose="3">
+
+
+ <test name="CRM Test">
+ <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://classic.freecrm.com/index.html" />
+  <parameter name="username" value="apiautomation" />
+  <parameter name="password" value="Selenium@12345" />
+
+  <classes>
+
+   <class name="CRMAssignTwo.CRMTest" />
+
+  </classes>
+
+ </test>
+ </suite>
+ 
+             
